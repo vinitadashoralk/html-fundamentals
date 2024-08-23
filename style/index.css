@@ -29,9 +29,25 @@ p {
 li {
   font-size: 20px;
 }
-footer p {
+/* footer p {
   font-size: 16px;
-}
-article header p {
+} */
+/* article header p {
   font-style: italic;
+} */
+#author {
+  font-style: italic;
+}
+#copyright {
+  font-size: 14px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+} */
+.related-img-class {
+  list-style: none;
 }
