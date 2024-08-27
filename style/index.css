@@ -21,6 +21,7 @@ body {
 }
 nav {
   font-size: 18px;
+  text-align: center;
 }
 article {
   margin-bottom: 60px;
@@ -140,6 +141,7 @@ footer p {
   height: auto;
   /* margin: 100px; */
 }
+
 nav a:link {
   /* background-color: orangered;
   margin: 20px;
@@ -147,6 +149,7 @@ nav a:link {
   margin-right: 30px;
   margin-top: 10px;
   /* display: inline-block; */
+  /* text-align: center; */
 }
 nav a:link:last-child {
   margin-right: 0;
