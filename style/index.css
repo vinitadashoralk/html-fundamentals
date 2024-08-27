@@ -5,6 +5,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
@@ -53,10 +59,12 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 li:last-child {
   margin-bottom: 0px;
@@ -128,4 +136,16 @@ footer p {
 .post-img {
   width: 100%;
   height: auto;
+  /* margin: 100px; */
+}
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  /* display: inline-block; */
+}
+nav a:link:last-child {
+  margin-right: 0;
 }
