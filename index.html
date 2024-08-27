@@ -8,7 +8,7 @@
 
   <body>
     <div class="container">
-      <header class="main-header">
+      <header class="main-header clearfix">
         <h1>📘 The Code Magazine</h1>
         <nav>
           <!-- <strong>This is a nevigation</strong> -->
@@ -17,6 +17,7 @@
           <a href="#">Flexbox</a>
           <a href="#">CSS Grid</a>
         </nav>
+        <!-- <div class="clear"></div> -->
       </header>
       <article>
         <header class="post-header">
@@ -27,8 +28,9 @@
             alt="Headshot of Laura Jones"
             width="50"
             height="50"
+            class="author-img"
           />
-          <p id="author">
+          <p id="author" class="author">
             Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
           </p>
           <img
@@ -40,6 +42,7 @@
           />
           <button>👍🏻Like</button>
         </header>
+
         <p>
           All modern websites and web applications are built using three
           <em>fundamental</em>
